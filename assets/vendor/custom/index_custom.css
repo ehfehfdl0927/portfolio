@@ -1,0 +1,88 @@
+#home{
+    background-image: url(../../img/bg_banner.jpg)
+}
+.basic_div{
+    position: relative;
+}
+.basic_div > span img{
+    height: 60%; 
+    vertical-align: middle; 
+    display: inline-block;
+}
+
+.skils_icon  span{
+    cursor: default;
+}
+.icon_hover{
+    position: absolute; 
+    opacity: 0;
+    text-align: center;
+}
+.skils_icon{
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:50%;
+}
+
+.icon_hover span{
+    font-size: 53%;
+    font-weight: 900;
+    background: linear-gradient(to top, #173f5f, #4aa8d8, #57C7FF); -webkit-text-fill-color: transparent; -webkit-background-clip: text;
+}
+
+.nav-item{
+    font-weight: bolder;
+}
+
+.video-wrap {position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden; }
+.video-wrap iframe,
+.video-wrap object,
+.video-wrap embed {position:absolute; top:0; left:10%; width:80%; height:80%; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+.home-header > img{
+    width: 40px; margin: 0; padding: 0;
+}
+#header_item1{
+    border-bottom: solid rgba(75, 137, 220, 0.5) 0.06em; padding: 0px;
+}
+#header_item2{
+    background-color: rgba(75, 137, 220, 0.5); color: white;
+}
+.about_div > h5{
+    font-weight: 500;
+}
+.about_div > h6{
+    font-weight: 500; padding: 0; margin-bottom: 0;
+}
+.about_div > p{
+    line-height: 175%; font-size: 95%; margin-top: 0;
+}
+.skils_div{
+    margin: 0 auto;  text-align: center;
+}
+.skils_area{
+    margin-top:2%; margin-bottom: 0; text-shadow: 2px 2px 4px gray; color: white; font-weight: 600; font-size: 1.3em;
+}
+.skils_item{
+    display: inline-block; padding: 1em;
+}
+.projects_div{
+    border-radius: 20px; margin: 1%; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#dot_div{
+    text-align: center; margin-top: 1em; margin-bottom: 0;
+}
+#dot_div div{
+    display: inline-block; width: 1em; height: 1em; border-radius: 50%; margin: 0 0.5em; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.project_img > img{
+    cursor: pointer; height: auto;
+}
+.pro_img:after{
+        display: inline-block; height: 100%; content: ""; vertical-align: middle;
+}
+.photo{
+    box-shadow: 6px 5px 10px 5px rgba(1, 1, 1, 0.6);
+}
+
+
